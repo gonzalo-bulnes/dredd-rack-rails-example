@@ -43,5 +43,5 @@ group :development, :test do
   gem 'spring'
 
   gem 'rerun', '0.10.0'
+  gem 'dredd-rack', '0.4.0'
 end
-
