@@ -24,7 +24,7 @@ Example:
 ```ruby
 # Gemfile
 
-gem 'dredd-rack', '0.4.0'
+gem 'dredd-rack', '0.5.0'
 ```
 
 ```ruby
