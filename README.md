@@ -34,11 +34,16 @@ gem 'dredd-rack', '0.5.0'
 
 require 'dredd/rack'
 
-Dredd::Rack.app = Rails.application # put here the name of your app
 Dredd::Rack::RakeTask.new # run with `rake dredd`
 
 # Optionally, add :dredd to the default task
 task default: :dredd # run with `rake`
+```
+
+```ruby
+# config/initializers/dredd_rack.rb
+
+Dredd::Rack.app = Rails.application # put here the name of your app
 ```
 
 That's all!
